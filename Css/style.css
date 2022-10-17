@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-size: 20px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+.random-box {
+  border: 2px solid #719ECE;
+  border-radius: 4px;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.title {
+    margin: 0;
+    font-size:2em;
+ 
+}
+.amount-of-num {
+    text-align: center;
+    }
+
+.input {
+    padding: 6px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 50px;
+    
+}
+.input:focus {
+    outline-color: #719ECE;
+}
+.range-box{
+    margin-bottom: 20px;
+}
+.btn {
+    border: 2px solid #719ECE;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: #719ECE;
+    color: white;
+    font-size: 1.5em;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: black;
+} 
+label {
+    font-size: 1em;
+}
+.result-box {
+  height: 50px;
+}
+.result{
+    margin: 0;
+}

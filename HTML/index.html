@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Css/style.css" />
+    <title>Random</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="random-box">
+        <h3 class="title">Random number</h3>
+        <div class="result-box">
+            <h1 class="result"></h1>
+        </div>
+
+        <div class="amount-of-num">
+          <label for="amount">Amount of numbers</label>
+          <input class="input" type="text" id="amout" placeholder="1" />
+        </div>
+        <div class="range-box">
+          <label for="">From</label>
+          <input class="input min" type="text"  />
+          <label for="">to</label>
+          <input class="input max" type="text" />
+        </div>
+        <button class="btn" onclick="generate()">Generate</button>
+      </div>
+    </div>
+  </body>
+  <script src="/JS/main.js"></script>
+</html>

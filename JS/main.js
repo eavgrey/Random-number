@@ -15,10 +15,10 @@ function clean(){
 function generate(){
     clean()
     amountNum = amount.value
-    minNum = min.value
-    maxNum = max.value
+    minNum = parseInt( min.value)
+    maxNum = parseInt(max.value)
     for(let i =0; i < amountNum; i++){
-        let random = Math.floor( Math.random() * (maxNum - minNum) + minNum) ; 
+        let random = Math.floor(Math.random() * (maxNum - minNum + 1) + minNum )
         result.innerHTML += random + "  "; 
     } 
 
